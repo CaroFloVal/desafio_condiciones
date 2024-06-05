@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#154360 ;
+    height: 20vh;
+    color: #154360;
+}
+h1{
+    color: #7ffd47;
+}
+main{
+    font-family: "Fredericka the Great", serif;;
+    height: 70vh;
+    background-color: #7ffd47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    margin: 2rem;
+}
+footer{
+  background-color: #154360;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+
+}
