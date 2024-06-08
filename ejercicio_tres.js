@@ -6,13 +6,13 @@ function verificarPassword() {
 
     const resultado = document.getElementById("resultado")
         if (password === "911") { 
-            resultado.textContent = "password 1 correcto"           
+            resultado.textContent = "Password 1 correcto"           
         }
         else if (password === "714") {
-            resultado.textContent = "password 2 correcto"
+            resultado.textContent = "Password 2 correcto"
         }
         else {
-            resultado.textContent = "password incorrecto"
+            resultado.textContent = "Password incorrecto"
         }
 }
 
