@@ -51,9 +51,7 @@ footer{
 /*ejercicio dos*/
 .container{
     display: flex;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;    
 }
  .tarjeta img {
     height: 10rem;
@@ -63,5 +61,16 @@ footer{
     display: flex;
     align-items: center;
  }
-
+ #btn{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+ }
+#btn button{
+    background-color: #7ffd47;
+    color: #154360
+}
  /*ejercicio tres*/
+.boton{
+    display: flex;
+}

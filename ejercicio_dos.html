@@ -11,16 +11,21 @@
     <div class="container">
         <div class="tarjeta">
             <img src="/assets/img/stitch.png" alt="stitch">
-            <input type="number" id="tentacles" name="tentacles" min="0" max="10" />
+            <input type="number" id="sticker1" min="0" max="10" value="0">
         </div>
         <div class="tarjeta">
             <img src="/assets/img/lilo.png" alt="lilo">
-            <input type="number" id="tentacles" name="tentacles" min="0" max="10" />
+            <input type="number" id="sticker2" min="0" max="10" value="0">
         </div>
         <div class="tarjeta">
             <img src="/assets/img/trapos.png" alt="trapos">
-            <input type="number" id="tentacles" name="tentacles" min="0" max="10" />
+            <input type="number" id="sticker3" min="0" max="10" value="0">
         </div>
     </div>
+    <div id="btn">
+        <button onclick="verificarStickers()">Ingresar</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="/ejercicio_dos.js"></script>
 </body>
 </html>
