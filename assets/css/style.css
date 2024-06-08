@@ -39,3 +39,29 @@ footer{
   height: 10vh;
 
 }
+
+/*Ejercicio uno*/
+#stitch{
+    height: 20rem;
+}
+.borde-color{
+    border: 2px solid red;
+}
+
+/*ejercicio dos*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+ .tarjeta img {
+    height: 10rem;
+    width: auto;
+ }
+ .tarjeta{
+    display: flex;
+    align-items: center;
+ }
+
+ /*ejercicio tres*/
